@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Conversor de temperaturas.
+        </title>
+        <script src="script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-header">
+                Conversor de Temperaturas
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Ingrese su tempeartura a convertir</h5>
+                <p class="card-text">y obtenga su resultado.</p>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="input-group flex-nowrap">
+                <label for="form-control">Temperatura: </label>
+                <input type="number" class="form-control temp" placeholder="Temperatura" aria-label="Temperatura" aria-describedby="addon-wrapping" value="0">
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary cel">Celcius</button>
+                <button type="button" class="btn btn-primary kel">Kelvin</button>
+                <button type="button" class="btn btn-primary far">Farhenheit</button>
+            </div>
+
+            <h2>
+                Convertir a: 
+            </h2>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary celr">Celcius</button>
+                <button type="button" class="btn btn-primary kelr">Kelvin</button>
+                <button type="button" class="btn btn-primary farr">Farhenheit</button>
+            </div>
+        </div>
+        <div>
+            <h2>
+                Resultado:
+            </h2>
+            <div>
+                <p class="resumen">
+
+                </p>
+                <p class="resultado user-select-all">
+
+                </p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+</html>
