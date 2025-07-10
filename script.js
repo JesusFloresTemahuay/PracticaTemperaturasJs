@@ -28,7 +28,7 @@ class Converter{
             case KELVIN:
                 return this.temperature;
             case FAHRTNHEIT:
-                return (this.temperature + 459.67) / 1.8;
+                return ((this.temperature * 1) + 459.67) / 1.8;
         }
     }
 
